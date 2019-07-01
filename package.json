@@ -1,25 +1,15 @@
 {
   "name": "gexffer",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is the description",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "microcule index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertbrook/gexffer.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/robertbrook/gexffer/issues"
-  },
-  "homepage": "https://github.com/robertbrook/gexffer#readme",
   "dependencies": {
-    "gexf": "^0.2.5"
-  }
+    "gexf": "^0.2.5",
+    "microcule": "*"
+  },
+  "license": "MIT"
 }
