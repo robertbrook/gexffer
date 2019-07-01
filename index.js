@@ -1,7 +1,7 @@
 
 
 
-var shacljs = require('shacl-js');
+
 module['exports'] = function helloWorld (hook) {
   // hook.req is a Node.js http.IncomingMessage
   var host = hook.req.host;
