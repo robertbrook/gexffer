@@ -9,9 +9,10 @@ module['exports'] = function helloWorld (hook) {
   
   var xml = hook.params.xml;
     parseString(xml, function (err, result) {
-      console.dir(result);
+      
+      hook.res.json(hook.params, result);
     });
   // hook.res is a Node.js httpServer.ServerResponse
   // Respond to the request with a simple string
-  hook.res.json(hook.params);
+  
 };
